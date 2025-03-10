@@ -31,7 +31,7 @@ function merge(nums1, m, nums2, n) {
       <div className="max-w-[85rem] mx-auto py-10 sm:py-0 px-4 sm:px-6 lg:px-8 z-10 relative min-h-dvh">
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center h-dvh">
           <div>
-            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Hi there, I'm <span className="text-blue-600">Andy</span>!</h1>
+            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">Hi there, I&apos;m <span className="text-blue-600">Andy</span>!</h1>
             <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">Full-stack developer and full-time dreamer, based in the San Francisco Bay Area. Click below to learn more!</p>
 
             <div className="mt-7 grid gap-3 w-full sm:inline-flex">

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 import Footer from "./footer";
 
 export default function Projects() {
@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex mb-20">
         <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
           <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">My Projects</h2>
-          <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">These are some of my favorite projects I've built. The technologies used are listed, and you can check out both the project and the code! More code can always be found on my Github.</p>
+          <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">These are some of my favorite projects I&apos;ve built. The technologies used are listed, and you can check out both the project and the code! More code can always be found on my Github.</p>
         </div>
       </div>
 
@@ -16,7 +16,7 @@ export default function Projects() {
         {/* Card */}
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-top items-top rounded-t-xl">
-            <img src="/imaginaryproducts.png" height="52" className="rounded-t-xl" />
+            <Image alt="Imaginary Products" src="/imaginaryproducts.png" height="52" className="rounded-t-xl" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
@@ -43,7 +43,7 @@ export default function Projects() {
         {/* Card */}
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-top items-top rounded-t-xl overflow-hidden">
-            <img src="/codetunes.png" className="inline-flex rounded-t-xl align-top" />
+            <Image alt="CodeTunes" src="/codetunes.png" className="inline-flex rounded-t-xl align-top" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
@@ -70,7 +70,7 @@ export default function Projects() {
         {/* Card */}
         <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
           <div className="h-52 flex flex-col justify-top items-top rounded-t-xl overflow-hidden">
-            <img src="/thesideprojectguy.png" className="inline-flex rounded-t-xl align-top" />
+            <Image alt="The Side Project Guy" src="/thesideprojectguy.png" className="inline-flex rounded-t-xl align-top" />
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-blue-500">
@@ -80,7 +80,7 @@ export default function Projects() {
               The Side Project Guy
             </h3>
             <p className="mt-3 text-gray-500 dark:text-neutral-500">
-              A home for all my side projects. I post projects I've completed and ideas I may not get to.
+              A home for all my side projects. I post projects I&apos;ve completed and ideas I may not get to.
             </p>
           </div>
           <div className="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
